@@ -44,7 +44,7 @@ const Banner = () => {
             </div>
             <div>
                 <img data-aos="fade-up" src={profileImage} className=' w-[700px] h-[300px] 
-                rounded-full border-2 p-1 border-teal-500 img_glow' alt="Akash_ghosh" />
+                rounded-full border-2 p-1 border-teal-500 img_glow '  style={{ width: '700px', height: '300px' }}  alt="Akash_ghosh" />
             </div>
         </div>
     );
