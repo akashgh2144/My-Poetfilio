@@ -42,10 +42,10 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <img data-aos="fade-up" src={profileImage} className=' w-[700px] h-[300px] 
-                 border-2 p-1 border-teal-500 img_glow rounded-full'    alt="Akash_ghosh" />
-            </div>
+            {/* <div> */}
+            <img data-aos="fade-down" src={profileImage} className=' w-[500px] h-[300px] 
+               rounded-full border-2 p-1 border-teal-500 img_glow' alt="Akash_ghosh" />
+            {/* </div> */}
         </div>
     );
 };
