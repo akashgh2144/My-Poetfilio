@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.glow{
+	transition: all 0.3s ease-in-out;
+}
+.glow:hover{
+box-shadow: 0 0 25px rgb(94 234 212) ;
+}
+/* .img_glow{
+	box-shadow: 0 0 40px rgb(94 234 212) ;
+} */
+.neno-button{
+	transition: all 0.3s ease-in-out;
+}
+.progress {
+	transition: width 0.5s ease; /* You can adjust the animation duration and easing function */
+  }
+
+/* projects.css */
+
+.card {
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 40px rgb(94 234 200) ;
+}
+
+.card:hover .card-overlay {
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.card-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.card-title {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card:hover .card-title {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.btn-secondary {
+	padding: 0.5rem 2rem;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card:hover .btn-secondary {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+
+
+
+
+/* *** Global Style goes Here *** */
+/* body {
+	font-family: 'Poppins', sans-serif;
+} */
