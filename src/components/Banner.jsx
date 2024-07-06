@@ -24,17 +24,17 @@ const Banner = () => {
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div className="flex space-x-2">
-                            <a href="https://github.com/Yeasin7772" className="text-teal-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                            <a href="https://github.com/akashgh2144" className="text-teal-600 hover:text-fuchsia-500 rounded-full glow p-2">
                                 <AiFillGithub className="text-[28px]" />
                             </a>
-                            <a href="https://www.linkedin.com/in/yeasin-molla-80a30423b/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                            <a href="https://www.linkedin.com/in/akash-kumar-94538028b/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                                 <FaLinkedinIn className="text-[28px]" />
                             </a>
-                            <a href="https://www.facebook.com/yasin.ararfa/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                            <a href="https://www.facebook.com/akashkumar0812?mibextid=ZbWKwL" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                                 <FaFacebook className="text-[28px]" />
                             </a>
                            
-                            <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                            <a href="https://www.instagram.com/ghosh_babu65/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                                 <FaInstagram className="text-[28px]" />
                             </a>
 
@@ -43,8 +43,8 @@ const Banner = () => {
                 </div>
             </div>
             <div>
-                <img data-aos="fade-up" src={profileImage} className=' w-[450px] h-[300px] 
-                rounded-full border-2 p-1 border-teal-500 img_glow' alt="Yeasin_molla" />
+                <img data-aos="fade-up" src={profileImage} className=' w-[700px] h-[300px] 
+                rounded-full border-2 p-1 border-teal-500 img_glow' alt="Akash_ghosh" />
             </div>
         </div>
     );
