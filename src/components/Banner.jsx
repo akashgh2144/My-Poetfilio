@@ -44,7 +44,7 @@ const Banner = () => {
             </div>
             {/* <div> */}
             <img data-aos="fade-down" src={profileImage} className=' w-[500px] h-[300px] 
-               rounded-full border-2 p-1 border-teal-500 img_glow' alt="Akash_ghosh" />
+                border-2 p-1 border-teal-500 img_glow' alt="Akash_ghosh" />
             {/* </div> */}
         </div>
     );
